@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <link href="https://bootswatch.com/5/darkly/bootstrap.min.css" rel="stylesheet"  crossorigin="anonymous">  
+    <title>Desafio Jquery </title>
+</head>
+<body>
+    <h1>Desafio Jquery</h1>
+    <div class="container">
+        <form id="formCelulares">
+            <div class="mb-3">
+              <label for="modelo" class="form-label">Marca</label>
+              <input type="text" class="form-control" id="modelo" name="modelo" >
+            </div>
+            <div class="mb-3">
+                <label for="marca" class="form-label">Modelo</label>
+                <input type="text" class="form-control" id="marca" name="marca" >
+              </div>
+              <div class="mb-3">
+                <label for="precio" class="form-label">Memoria</label>
+                <input type="number" class="form-control" id="memoria" name="memoria" >
+              </div>
+              <div class="mb-3">
+                <label for="color" class="form-label">Precio</label>
+                <input type="number" class="form-control" id="precio" name="precio" >
+              </div>
+            <button type="submit" class="btn btn-primary">Crear Celular</button><br><br>
+          </form>
+    </div>
+    <button id = "botonCelular" class="btn btn-dark">Cargar lista</button> <br>
+    <div id="divCelus" class="row"></div> 
+    
+<script src="jquery.js"></script>    
+</body>
+</html>
